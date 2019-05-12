@@ -11,13 +11,15 @@
         android:layout_width="263dp"
         android:layout_height="270dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="88dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="251dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="312dp"
         android:background="#ffffff"
+        android:foregroundGravity="center"
         android:src="@drawable/imagenuno" />
 
     <TextView
@@ -27,9 +29,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="66dp"
-        android:layout_marginEnd="-19dp"
-        android:layout_marginBottom="202dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="210dp"
+        android:gravity="center"
         android:text="Tabla Periódica de los Elementos Químicos"
         android:textColor="#424242"
         android:textSize="15dp" />
