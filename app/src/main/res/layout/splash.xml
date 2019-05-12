@@ -8,15 +8,15 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="248dp"
-        android:layout_height="257dp"
+        android:layout_width="263dp"
+        android:layout_height="270dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="88dp"
-        android:layout_marginEnd="75dp"
-        android:layout_marginBottom="264dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="251dp"
         android:background="#ffffff"
         android:src="@drawable/imagenuno" />
 
