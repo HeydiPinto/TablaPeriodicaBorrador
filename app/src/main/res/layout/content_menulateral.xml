@@ -8,4 +8,12 @@
     tools:context=".menulateral"
     tools:showIn="@layout/app_bar_menulateral">
 
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v4.view.ViewPager>
+
 </android.support.constraint.ConstraintLayout>

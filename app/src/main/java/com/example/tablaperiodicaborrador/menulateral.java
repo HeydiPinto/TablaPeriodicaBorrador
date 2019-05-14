@@ -3,6 +3,8 @@ package com.example.tablaperiodicaborrador;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -23,6 +25,15 @@ public class menulateral extends AppCompatActivity
         setContentView(R.layout.activity_menulateral);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        TabLayout tabLayout=(TabLayout) findViewById(R.id.tabs);
+        ViewPager Pager=(ViewPager)findViewById(R.id.viewpager);
+
+        tabPagerAdapter tabPagerAdapter= new tabPagerAdapter(getSupportFragmentManager());
+        Pager.setAdapter(tabPagerAdapter);
+        tabLayout.setupWithViewPager(Pager);
+
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
