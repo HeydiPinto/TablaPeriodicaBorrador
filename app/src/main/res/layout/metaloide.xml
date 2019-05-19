@@ -10,7 +10,7 @@
         android:id="@+id/mtimagen"
         android:layout_width="206dp"
         android:layout_height="222dp"
-        app:srcCompat="@drawable/Boro"
+        app:srcCompat="@drawable/bor"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 

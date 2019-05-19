@@ -15,12 +15,15 @@ public class adaptador  extends BaseAdapter{
     private static LayoutInflater inflater = null;
 
     String[][] datos;
+    int[] datosImg;
 
 
 
     public adaptador(Context contexto, String[][] datos, int[] imagenes) {
 
         this.datos = datos;
+        this.datosImg = imagenes;
+
 
 
 
@@ -35,10 +38,11 @@ public class adaptador  extends BaseAdapter{
         TextView id = (TextView) vista.findViewById(R.id.mtid);
         TextView simbolo = (TextView) vista.findViewById(R.id.mtsimbolo);
         TextView nombre = (TextView) vista.findViewById(R.id.mtnombre);
-        imagen.setImageResource(Integer.parseInt(datos[i][0]));
-        id.setText(datos[i][1]);
-        simbolo.setText(datos[i][2]);
-        nombre.setText(datos[i][3]);
+        id.setText(datos[i][0]);
+        simbolo.setText(datos[i][1]);
+        nombre.setText(datos[i][2]);
+        imagen.setImageResource(datosImg[i]);
+        imagen.setTag(i);
 
         return vista;
 
@@ -46,7 +50,7 @@ public class adaptador  extends BaseAdapter{
 
     @Override
     public int getCount() {
-        return 0;
+        return datosImg.length;
     }
 
     @Override
