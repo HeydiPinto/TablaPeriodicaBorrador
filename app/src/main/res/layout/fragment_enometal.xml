@@ -5,12 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".ENometal">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ListView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="No Metal"
-        android:gravity="center"
-        android:textSize="24dp" />
-
+        android:layout_height="match_parent" />
 </FrameLayout>

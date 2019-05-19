@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/mtimagen"
+        android:layout_width="206dp"
+        android:layout_height="222dp"
+        app:srcCompat="@drawable/Boro"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/mtid"
+        android:layout_width="43dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="84dp"
+        android:text="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mtsimbolo"
+        android:layout_width="36dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="88dp"
+        android:text="B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mtid" />
+
+    <TextView
+        android:id="@+id/mtnombre"
+        android:layout_width="58dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="68dp"
+        android:text="Boro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mtsimbolo" />
+</android.support.constraint.ConstraintLayout>
